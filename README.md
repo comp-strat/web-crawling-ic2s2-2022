@@ -3,6 +3,7 @@
 # Web-Crawling: Essential Tools for Wrangling Web Data in Python
 ## [A workshop at IC2S2 2022](https://iscss.org/ic2s2/conference/)
 
+## **Note: These materials will change before the workshop!**
 
 ## Overview
 
