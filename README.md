@@ -1,7 +1,7 @@
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jhaber-zz/web-crawling-intro-2021/HEAD)
 
-# Web-Crawling: A Practical Introduction in Python
-## A workshop with the [Massive Data Institute](https://mccourt.georgetown.edu/research/the-massive-data-institute/), Georgetown University
+# Web-Crawling: Essential Tools for Wrangling Web Data in Python
+## [A workshop at IC2S2 2022](https://iscss.org/ic2s2/conference/)
 
 
 ## Overview
@@ -13,19 +13,19 @@ Whatever your background, this workshop will give you the foundation to use web-
 
 ## Workshop goals
 
-* Understand how web-crawling and -scraping are useful for digital data collection
-* Build intuitions around the uses and limits of:
+* Understanding the building blocks for digital data collection via web-crawling and -scraping
+* Intuitions around the uses and limits of:
   - APIs (Application Programming Interfaces)
   - Exploiting website structure (HTML/CSS)
-  - Scalable crawling
-* Be familiar with common problems in web-crawling and their fixes, like:
+  - Web-crawling for research at scale
+* Knowledge of common problems in web-crawling and their fixes, like:
   - Nested websites --> vertical crawling (link extraction)
-  - Getting blocked --> polite pauses
-* Gain practice with: 
+  - Getting blocked --> polite pauses between server requests
+* Hands-on skill with: 
   - Collecting domains to scrape
-  - Scalable and non-scalable website scraping
-  - Parsing website text (with BeautifulSoup)
-  - wget, Requests, and Scrapy
+  - Non-scalable website scraping with _Requests_
+  - Parsing website text with _BeautifulSoup_
+  - Crawling at scale with _Scrapy_
 
 
 ## Prerequisites
@@ -37,7 +37,7 @@ We will get our hands dirty implementing an assortment of simple web-crawling to
 
 For simplicity, just click the "Launch Binder" button (at the top of this Readme) to create a virtual environment ready for this workshop. It may take a few minutes; if it takes longer than 10, try again.
 
-If you want to run the code on your computer, you have two options. You could use [Anaconda](https://www.anaconda.com/what-is-anaconda/) to make installation easy: [download Anaconda](https://www.anaconda.com/download/) . Or if you already have Python 3.x installed with the full list of libraries listed under `requirements.txt`, you're welcome to clone this repository and follow along on your own machine. You can also install all the necessary packages like so: 
+If you want to run the code on your computer, you have two options. You could use [Anaconda](https://www.anaconda.com/what-is-anaconda/) to make installation easy: [download Anaconda](https://www.anaconda.com/download/). Or if you already have Python 3.x installed with the full list of libraries listed under `requirements.txt` or don't mind installing everything in a [virtual environment](https://python.land/virtual-environments/virtualenv) (best practice if working locally), you're welcome to clone this repository and follow along on your own machine. You can also install all the necessary packages like so: 
 
 ```
 pip3 install -r requirements.txt
@@ -46,7 +46,7 @@ pip3 install -r requirements.txt
 
 ## Open-Access Resources 
 
-* [Slides for day 1](http://bit.ly/slides-crawl-2021) (also in folder above)
+* [Slides (previous version)](http://bit.ly/slides-crawl-2021) (also in folder above)
 
 ### Python and Jupyter Notebooks
 
@@ -75,7 +75,7 @@ pip3 install -r requirements.txt
 * [Browser automation for handling interactive, JavaScript-heavy pages: Selenium](https://www.selenium.dev/)
 
 ## O'Reilly books on scraping
-These are available free to Georgetown students/affiliates ([log in here then search for books](https://www.safaribooksonline.com/library/view/temporary-access/))
+These are available free for some universities, like Georgetown or UC Berkeley ([log in here then search for books](https://www.safaribooksonline.com/library/view/temporary-access/))
 
 * [Popular intro book with Ch. 12 on web-scraping: _Automate the Boring Stuff with Python_](https://nostarch.com/automatestuff2)
 * [Complete scraping intro: _Web-scraping with Python_](http://shop.oreilly.com/product/0636920078067.do)
@@ -90,9 +90,6 @@ If you spot a problem with these materials, please make an issue describing the 
 
 * [D-Lab at the University of California, Berkeley](https://dlab.berkeley.edu/)
 * [Summer Institute in Computational Social Science](https://sicss.io/)
+* [Massive Data Institute at Georgetown University](https://mdi.georgetown.edu/)
 * [Geoff Bacon](https://geoffbacon.github.io/), especially his [Introduction to web scraping workshop](https://github.com/TextXD/introduction-to-web-scraping)
 * [Rochelle Terman](http://rochelleterman.com/), especially her [Web Scraping and Data Management in R summer course](https://github.com/rochelleterman/ESS-webscraping)
-
-<br>
-
-![MDI logo](extra/mdi_logo.png)
