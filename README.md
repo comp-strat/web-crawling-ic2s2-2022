@@ -1,9 +1,7 @@
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jhaber-zz/web-crawling-intro-2021/HEAD)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/comp-strat/web-crawling-ic2s2-2022.git/HEAD)
 
 # Web-Crawling: Essential Tools for Wrangling Web Data in Python
 ## [A workshop at IC2S2 2022](https://iscss.org/ic2s2/conference/)
-
-## **Note: These materials will change before the workshop!**
 
 ## Overview
 
