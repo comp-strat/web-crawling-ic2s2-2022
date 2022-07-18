@@ -45,7 +45,7 @@ pip3 install -r requirements.txt
 
 ## Open-Access Resources 
 
-* [Slides (previous version)](http://bit.ly/slides-crawl-2021) (also in folder above)
+* [Slides](https://bit.ly/slides-crawl-2022) (also in folder above)
 
 ### Python and Jupyter Notebooks
 
